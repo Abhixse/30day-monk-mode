@@ -1,5 +1,21 @@
-h1{
-    text-align: center;
-    background: #000;
-    color: red;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #24252a;
+}
+li,a,button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px ;
 }
