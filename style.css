@@ -2,3 +2,13 @@ h3 {
     color: antiquewhite;
     background: #000;
 }
+#box {
+    background-color: blue;
+
+}
+.heading {
+    color: red;
+}
+.Nm {
+    background-color: green;
+}
