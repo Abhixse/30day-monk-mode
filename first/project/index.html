@@ -61,24 +61,44 @@
                             &lt;h6&gt; tag. Each of the headings decreases in size according to its importance.</p>
                         <p>t is important to avoid using more than one &lt;h1&gt; element for one code sheet.</p>
                         <p>Don't do this ⬇️:</p>
-                        <code> &lt;main&gt; 
+                        <pre>
+                            <code> 
+                            &lt;main&gt; 
 
-                         &lt;div&gt;
-                         &lt;h1&gt;Can Coding be fun&quest;&lt;/h1&gt;
-                         &lt;p&gt;It is always better when you have fun coding&lt;/p&gt;
-                         &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;/main&gt;</code>
-                        <p>In the above example, we used the <h1> tag on the first and second &lt;div&gt;. Coding this way will work, but although you will achieve the same goal, this is not the best practice.</p>
-                        
-                        <p>Do this instead ⬇️:</p>
-                        <code>
-                            &lt;main&gt;
+                                &lt;div&gt;
+                                &lt;h1&gt;Can Coding be fun&quest;&lt;/h1&gt;
+                                &lt;p&gt;It is always better when you have fun coding&lt;/p&gt;
+                                &lt;/div&gt;
 
-                            &lt;div&gt;
-                            &lt;h1&gt;Can coding be fun &quest;&lt;/h1&gt;
+                                &lt;div&gt;
+                                &lt;h1&gt; The more you code the better you become &lt;/h1&gt;
+                                &lt;p&gt;The more you code the better you become&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/main&gt;
+                            </code>
+                           </pre>
+                        <p>In the above example, we used the
+                        <h1> tag on the first and second &lt;div&gt;. Coding this way will work, but although you will
+                            achieve the same goal, this is not the best practice.</p>
 
-                        </code>
+                            <p>Do this instead ⬇️:</p>
+                            <pre>
+                                 <code>
+                                 &lt;main&gt;
+
+                                    &lt;div&gt;
+                                    &lt;h1&gt;Can coding be fun &quest;&lt;/h1&gt;
+                                    &lt;p&gt;The more you code the better you become &lt;/p&gt;
+                                    &lt;/div&gt;
+                            
+                                    &lt;div&gt;
+                                    &lt;h2&gt;Coding is fun &lt;/h2&gt;
+                                    &lt;p&gt;It is always better when you have fun coding &lt;/p&gt;
+                                    &lt;/div&gt;
+
+                                  &lt;/main&gt;
+                         </code>
+                      </pre>
                     </div>
                 </section>
 
