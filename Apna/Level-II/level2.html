@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level-II</title>
     <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <!-- Height 
     by default, it sets the content area height of the element
@@ -15,50 +19,122 @@
         height : 50px;
     }
  -->
- <!-- Border
+    <!-- Border
 Used to set an element's border
 
 border-width:2px; 
 border-style :solid/dotted/dashed;
 border-color : black;
 -->
-<!-- Border shorthand 
+    <!-- Border shorthand 
 border : 2px solid black; -->
 
-<!-- Border radius 
+    <!-- Border radius 
 used to round the corners of an element's outer border edge
 border-radius :10px;
 border-radius:50% -->
-<!-- Padding 
+    <!-- Padding 
 space inside 
 padding-left 
 padding-right 
 padding-top
 padding-bottom 
  -->
- <!-- padding shorthand
+    <!-- padding shorthand
 padding : 1px 2px 3px 4px;
 -->
 
-<!-- Margine 
+    <!-- Margine 
     margin-top;
     margin-right
     margin-bottom
     margin-left -->
 
     <h1>Alez</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed consequatur minima mollitia, eligendi quae odit quam reprehenderit omnis voluptatibus, dignissimos est, et aspernatur voluptatem rerum blanditiis suscipit nobis iste repellendus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed consequatur minima mollitia, eligendi quae odit
+        quam reprehenderit omnis voluptatibus, dignissimos est, et aspernatur voluptatem rerum blanditiis suscipit nobis
+        iste repellendus?</p>
     <input type="button" value="Alez">
     <div>this is a div</div>
 
-    <!-- Display Property
+<!-- Display Property
     display:inline/block/inline-block /none;
-inline -Takes only the space required by the element. (no margin/padding)
-block - Takes full space available in width. 
-inline-block - similar to inline but we can set margin & padding
-none - To remove element from document flow. -->
+    inline -Takes only the space required by the element. (no margin/padding)
+    block - Takes full space available in width. 
+    inline-block - similar to inline but we can set margin & padding 
+-->
+<!--
+    none - To remove element from document flow.
+    hidden - Space for the element is reserved.
+-->
+    <!-- 2:44:55 -->
 
 
-<!-- 2:44:55 -->
+<!-- Alpha channel
+    opacity ( 0 to 1)
+    • RGBA 
+    color:rgba(255,0,0,0.5) 
+    • RGBA 
+    color:rgba(255,0,0,1) 
+-->
+
+<!--
+    Units in CSS
+    • %
+    • em
+    • rem
+ --> 
+
+ <!-- Percentage (%)
+    It is often used to define a size as relative to an element's parent object.
+    margin : 30%;
+    margin-left : 50%
+ -->
+
+<!-- Em 
+    Font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other prooperties like width.
+    width : 5em;
+ -->
+
+<!-- Rem (Root Em) 
+    Font Size of the root element.   
+    width : 5rem; 
+-->
+
+<!-- 
+vh : relative to 1% viewport height
+vw : relatiive to 1% viewport width
+ --> 
+
+ <!-- Position
+    static - default position (The top, right, left,bottom,left and z-index properties have no effect)
+    
+    relative - element is relative to itself. (The Top, right,bottom,left,and z-index will work)
+
+    absolute - positioned relative to its closest positioned ancestor.(remove from the flow)
+
+    fixed - positioned relative to browser.(removed from flow)
+
+    sticky - positioned based on user's scroll position
+-->
+
+<!-- z-index
+    it decides the stack level of elements
+    Overlapping element with a larger z-index cover those with a smaller one.
+    z-index : auto;
+    z-index :1/2/3;
+    z-index :-1/-2;
+-->
+<!-- 3:36:53 -->
+
+<!-- Background Image
+    Used to set an image as background
+    background-image : url("URL.jpeg");
+    Background Size 
+    background-size : cover /contain / auto;
+     
+-->
+
 </body>
+
 </html>

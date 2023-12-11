@@ -1,4 +1,4 @@
-div {
+/* div { 
     height: 100px;
     width: 100px;
     background-color: yellow;
@@ -14,7 +14,7 @@ div {
     margin-right: 1px;
     margin-bottom: 1px;
     margin-left: 1px;
-}
+ } */
 
 #green {
     background-color: green;
@@ -25,7 +25,7 @@ div {
 
 #navigation-bar{
     background-color: black;
-    padding: 14px;
+    padding: 2%;
 }
 a {
     padding: 4%;
